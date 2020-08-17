@@ -3,7 +3,7 @@ const Header = () => {
         <div class="header-main">
             <div class="header-logo">
                 <a href="/">
-                    <img src="https://res.cloudinary.com/dfmafb0cf/image/upload/v1597629777/platzi/rm-logo.png">
+                    <img src="src/images/rm-logo.png">
                 </a>
             </div>
             <h3>Rick and Morty Directory</h3>
