@@ -6,13 +6,12 @@ const Home = async () => {
         <div class="Characters">
             ${characters.results.map(character => `
             <article class="Character-item">
+                <img src="${character.image}" alt="${character.name}">
                 <a href="#/${character.id}/">
-                    <img src="${character.image}" alt="${character.name}">
                     <h2>${character.name}</h2>
                 </a>
             </article>
             `).join('')}
-            
         </div>
     `;
     return view;
